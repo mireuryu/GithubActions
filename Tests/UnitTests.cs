@@ -28,7 +28,7 @@ public class Addition
 	}
 }
 // sub
-public class Subtract
+public class Subtraction
 {
 	[TestMethod]
 	public void Subtract_Valid_Patino()
@@ -55,7 +55,7 @@ public class Subtract
 	}
 }
 // mult
-public class Multiply
+public class Multiplication
 {
 	[TestMethod]
 	public void Multiply_Valid_Patino()
@@ -82,7 +82,7 @@ public class Multiply
 	}
 }
 // div
-public class Divide
+public class Division
 {
 	[TestMethod]
 	public void Divide_Valid_Patino()
