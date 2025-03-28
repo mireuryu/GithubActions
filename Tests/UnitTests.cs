@@ -27,6 +27,8 @@ public class Addition
 		Assert.ThrowsException<ArgumentNullException>(() => Program.Add(null, null));
 	}
 }
+
+[TestClass]
 // sub
 public class Subtraction
 {
@@ -54,6 +56,8 @@ public class Subtraction
 		Assert.ThrowsException<ArgumentNullException>(() => Program.Subtract(null, null));
 	}
 }
+
+[TestClass]
 // mult
 public class Multiplication
 {
@@ -81,6 +85,8 @@ public class Multiplication
 		Assert.ThrowsException<ArgumentNullException>(() => Program.Multiply(null, null));
 	}
 }
+
+[TestClass]
 // div
 public class Division
 {
@@ -108,6 +114,8 @@ public class Division
 		Assert.ThrowsException<ArgumentNullException>(() => Program.Divide(null, null));
 	}
 }
+
+[TestClass]
 //power
 public class Power
 {
