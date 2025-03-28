@@ -1,5 +1,5 @@
 namespace GithubActionsLab;
-
+ 
 [TestClass]
 public class Addition
 {
